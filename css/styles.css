@@ -36,7 +36,7 @@ margin:8px;
 width: 200px;
 padding: 0px;
 position: relative;
-top: 100px;
+margin-top: 100px;
 border-radius: 25px;
 box-shadow: 2px 5px 5px grey;
 height: 65px;
@@ -227,13 +227,15 @@ li a:hover {
   #namecard
 {
   
-  top: 15px;
-  right: 140px;
+  float: none;
   
+  margin: 30px;
+  margin-left: 120px;
 
 }
 
 #nav {
+  clear: both;
   width: 450px;
   margin: 0 auto;
   
