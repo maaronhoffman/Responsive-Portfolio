@@ -10,7 +10,13 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
 height: 100%;
 }
+ 
+hr {
 
+
+
+
+}
 
 #nav {
 
@@ -57,6 +63,12 @@ padding: 20px;
 
 }
 
+#aboutmebox img{
+ margin: auto;
+
+}
+
+
 #profilepic {
 
 height: 100px;
@@ -71,10 +83,11 @@ margin-top: 10px;
 p {
 
 text-align: left;
-left: 15px;
 position: relative;
+left: 15px;
+
 font-size: smaller;
-top: 2px;
+
 
 }
 
@@ -139,12 +152,12 @@ li a:hover {
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 1px;
 }
 
 .column {
   flex: 50%;
-  padding: 0 4px;
+  padding: 0 1px;
 }
 
 .column img {
@@ -178,4 +191,64 @@ li a:hover {
   padding: 20px;
 
 
+}
+
+@media only screen and (max-width: 768px) {
+  #aboutmebox {
+    width: 600px;
+    height: 500px;
+    padding: 20px;
+  }
+
+  .container {
+    width: auto;
+    height: 500px;
+    padding: 20px;
+  }
+
+
+
+  
+}
+
+@media only screen and (max-width: 640px) {
+  #aboutmebox {
+    width: 400px;
+    height: auto;
+    padding: 30px;
+  }
+
+  .container {
+    width: auto;
+    height: 500px;
+    padding: 15px;
+  }
+
+  #namecard
+{
+  
+  top: 15px;
+  right: 140px;
+  
+
+}
+
+#nav {
+  width: 450px;
+  margin: 0 auto;
+  
+}
+
+#menutxt {
+width: 450px;
+  margin: 0 auto;
+
+
+}
+ ul{
+
+width: 350px;
+
+
+ }
 }
